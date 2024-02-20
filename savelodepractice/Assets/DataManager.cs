@@ -19,7 +19,7 @@ public class DataManager : MonoBehaviour
     //싱글톤
     public static DataManager instance;
 
-    Playerdata nowplayer = new Playerdata(){name = "박요한", level = 10, coin = 3, item = 3};
+    Playerdata nowplayer = new Playerdata(){name = "원선희", level = 20, coin = 5, item = 3};
     string Path;
     string filename = "save";
 
